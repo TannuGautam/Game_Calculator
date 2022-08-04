@@ -1,24 +1,21 @@
 *{
-	box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body{
-	font-family: 'Titillium Web', sans-serif;
-	
+   font-family: 'Titillium Web', sans-serif;	
 }
-
 
 .home-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   justify-content: center;
 }
-
-
+ 
 button {
   padding: 30px;
   margin: 30px;
@@ -33,7 +30,6 @@ button {
   display: flex;
   justify-content: center;
   border:none;
-  
 }
 
 button:hover {
@@ -46,6 +42,6 @@ button:hover a {
 
 button a, active
 {
-	text-decoration: none;
+  text-decoration: none;
 }
 
