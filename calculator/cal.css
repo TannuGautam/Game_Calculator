@@ -21,7 +21,7 @@ body{
 	background-color: #ecf0f3;
 	padding: 15px;
 	box-shadow: inset 5px 5px 12px #7011a1,
-					  5px 5px 12px rgba(0,0,0,0.16);
+	            5px 5px 12px rgba(0,0,0,0.16);
 	border-radius: 30px;
 	display: grid;
 	grid-template-columns: repeat(4,68px);
@@ -34,7 +34,7 @@ input{
 	width: 260px;
 	background-color: #ecf0f3;
 	box-shadow: inset -5px -5px 12px #ffffff,
-				inset 5px 5px 12px rgba(0,0,0,.16);
+		    inset 5px 5px 12px rgba(0,0,0,.16);
 	border: none;
 	border-radius: 30px;
 	color: rgb(70,70,70);
@@ -54,8 +54,7 @@ button{
 	border: none;
 	background-color: #ecfof3;
 	box-shadow: -5px -5px 12px #ffffff,
-				5px 5px 12px rgba(0,0,0,.16);
-
+		     5px 5px 12px rgba(0,0,0,.16);
 	border-radius: 20%;
 	margin: 8px;
 	font-size: 16px;
@@ -68,10 +67,6 @@ button{
 	border-radius: 10%;
 	background-color: #ecf0f3;
 	box-shadow: inset -5px -5px 12px #ffffff,
-				inset 5px 5px 12px rgba(0,0,0,.16);
+		    inset 5px 5px 12px rgba(0,0,0,.16);
 }
-
-
-
-
 
