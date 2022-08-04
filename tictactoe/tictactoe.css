@@ -1,14 +1,14 @@
 *{
-	box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body{
-	background: rgba( 255, 255, 255, 0.6 );
-	backdrop-filter: blur( 0px );
-	-webkit-backdrop-filter: blur( 0px );
-	font-family: 'Titillium Web', sans-serif;
+    background: rgba( 255, 255, 255, 0.6 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    font-family: 'Titillium Web', sans-serif;
 }
 
 nav{
@@ -38,32 +38,31 @@ nav ul{
     display: grid;
     grid-template-columns: repeat(3,10vw);
     grid-template-rows: repeat(3,10vw);
-	position: relative;
-	
-	background: rgba( 203, 54, 231, 0.55 );
-	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 1.5px );
-	-webkit-backdrop-filter: blur( 1.5px );
-	border-radius: 10px;
-	border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position: relative;
+    background: rgba( 203, 54, 231, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
 .box{
-	border: 2px solid rgba( 255, 255, 255, 0.18 );
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
     font-size: 8vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
-	align-items: center;
+    align-items: center;
 }
 
 .box:hover{
     background: rgba( 144, 19, 254, 0.3 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 0px );
--webkit-backdrop-filter: blur( 0px );
-border: 2px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
 }
 
 img{
@@ -73,83 +72,82 @@ img{
 
 .imgbox img{
     width: 0;
-	transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
 }
 
 .gameInfo{
-	padding: 0 34px;
+    padding: 0 34px;
 }
 
 .br-0{
-	border-right: 0;
-	
+    border-right: 0;	
 }
 
 .b1-0{
-	border-left: 0;
+    border-left: 0;
 }
 
 .bt-0{
-	border-top: 0;
+    border-top: 0;
 }
 
 .bb-0{
-	border-bottom: 0;
+    border-bottom: 0;
 }
 
 
 .info{
-	font-size: 25px;
+    font-size: 25px;
 }
 
 .cc{
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 	
 .imgbox{
-		display: flex;
-		justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 	
 #reset{
-	margin:5px;
+    margin:5px;
     padding: 10px;
     background: #f3e7f9;
     border-radius: 6px;
     cursor: pointer;
     font-size: 15px;
     font-weight: bolder;
-	height: 50px;
-	width: 100px;
-	background: rgba( 189, 16, 224, 1 );
-	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 8px );
-	-webkit-backdrop-filter: blur( 8px );
-	border-radius: 10px;
-	border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 50px;
+    width: 100px;
+    background: rgba( 189, 16, 224, 1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
 #reset:hover {
-  background-color: rgba(202, 40, 162, 0.37);
+    background-color: rgba(202, 40, 162, 0.37);
 }
 
 #reset:hover a {
-  color: white;
+    color: white;
 }
 
 #reset a, active
 {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 
 .line{
-	background-color: black;
+    background-color: black;
     height: 6px;
     width: 0;
     position: absolute;
@@ -161,57 +159,37 @@ img{
 @media screen and (max-width: 950px)
 {
 	.gameContainer{
-		flex-wrap: wrap;
+	      flex-wrap: wrap;
 	}
 	
 	.gameInfo{
-		margin-top: 34px;
+	      margin-top: 34px;
 	}
 	
 	.gameInfo h1{
-		font-size: 1.5rem;
-		text-align: center;
-		margin: 10px;
+	      font-size: 1.5rem;
+              text-align: center;
+	      margin: 10px;
 	}
 	
 	.container{
-    display: grid;
-    /*grid-template-columns: repeat(3,20vw);
-    grid-template-rows: repeat(3,20vw);*/
+           display: grid;
+    	   /*grid-template-columns: repeat(3,20vw);
+           grid-template-rows: repeat(3,20vw);*/
 	}
 	
 	.cc{
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		
+            text-align: center;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;	
 	}
 	
 	.imgbox{
-		display: flex;
-		justify-content: space-around;
+	    display: flex;
+	    justify-content: space-around;
 	}
 	
 	
 }
 }
-
-/*CALCULATOR*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
